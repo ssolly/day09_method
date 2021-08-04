@@ -16,6 +16,11 @@ public class Ex01 {
 	  - 보편적으로 메소드 또는 함수라고 말한다
 	  - 메소드는 클래스 내부에서 정의하는 것을 말한다
 	  - 함수는 클래스 없이 독립적으로 사용하는 것 
+	 # 접근제한자
+	  - public : 외부, 내부의 접근을 허용한다
+	  - private : 외부의 접근을 막는다. 내부에서만 허용한다
+	  - protected : 상속 받은 자식
+	  - default : 접근제한자無, 동일한 패키지에서만 접근 가능
 	 */
 	
 	public static void main(String[] args) {
@@ -28,6 +33,7 @@ public class Ex01 {
 		// 멤버 접근 연산자
 		//ex="홍길동";  - 문제有 : 문자열이 어디에 들어가야하는지 명시해놓은 바가 없다
 		ex.name="홍길동";
+		//ex.age = 27; - 문제有 : Ex01_Class에서 age변수는 private 제한자를 갖고 있다
 		System.out.println(ex.name);
 		
 	}

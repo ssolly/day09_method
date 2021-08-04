@@ -4,6 +4,6 @@ public class Ex01_Class {
 
 		//¸â¹ö
 		String name, addr, phNum,birth;
-		int age, stNum;
+		private int age, stNum;
 		
 }
