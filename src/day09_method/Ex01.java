@@ -20,9 +20,15 @@ public class Ex01 {
 	
 	public static void main(String[] args) {
 		
-		String name, addr, phNum,birth;
-		int age, stNum;
+		//String name, addr, phNum,birth;
+		//int age, stNum;
 		
+		Ex01_Class ex = new Ex01_Class();	// 클래스 자료형의 객체
+		
+		// 멤버 접근 연산자
+		//ex="홍길동";  - 문제有 : 문자열이 어디에 들어가야하는지 명시해놓은 바가 없다
+		ex.name="홍길동";
+		System.out.println(ex.name);
 		
 	}
 }
